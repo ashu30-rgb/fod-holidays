@@ -1,26 +1,49 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.fod-input{
+  font-size: 14px;
+  background-color: transparent;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+input:focus{
+outline: none
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.btn-primary {
+  @apply bg-fodOrange uppercase p-3 px-6 rounded flex gap-2 items-center justify-center text-white;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.title-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.title-underline-orange {
+  position: relative;
+  display: inline-block;
+}
+
+.title-underline::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  bottom: -8px;
+  width: 40%;
+  height: 4px;
+  background-color: currentColor;
+  border-radius: 2px;
+}
+
+.title-underline-orange::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom:-8px;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #fc5b0b;
+  border-radius: 2px;
 }
