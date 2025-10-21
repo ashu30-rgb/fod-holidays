@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from "@fod/assets/logo.png"
+import Link from 'next/link';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +21,8 @@ export default function Header() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8 font-medium text-white">
             <a href="#" className="hover:text-blue-600 transition">Home</a>
+            <Link href="/explore" className="hover:text-blue-600 transition">Explore</Link>
             <a href="#" className="hover:text-blue-600 transition">About</a>
-            <a href="#" className="hover:text-blue-600 transition">Services</a>
             <a href="#" className="hover:text-blue-600 transition">Projects</a>
             <a href="#" className="hover:text-blue-600 transition">Contact</a>
           </nav>
