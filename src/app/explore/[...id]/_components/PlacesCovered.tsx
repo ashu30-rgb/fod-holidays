@@ -37,7 +37,6 @@ function PlacesCovered({ data }: { data: MainDataType }) {
         <div className='border rounded-xl p-4 '>
             <div className='flex gap-10 justify-between'>
                 <div>
-
                     <h2 className='text-2xl font-bold text-fodBlue title-underline-orange mb-2'>Places to be covered</h2>
                     <Stepper
                         steps={STEP_ARRAY}
@@ -45,16 +44,16 @@ function PlacesCovered({ data }: { data: MainDataType }) {
                         styles={styles}
                     />
                 </div>
-                <div className='w-3/4 flex gap-2 rounded-xl'>
+                <div className='w-3/4 flex gap-1 rounded-xl'>
                     <div className='w-1/2 hidden md:block'>
-                        <Image src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg" alt="destination image" className='w-full h-auto rounded-l-xl' height={100} width={100} />
+                        <Image src={data.images[0]} alt="destination image" className='w-full h-full rounded-l-xl object-cover' height={600} width={600}  />
                     </div>
-                    <div className='grid grid-cols-2 gap-2 md:w-1/2'>
-                        <Image src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg" alt="destination image" className='w-full h-auto' height={100} width={100} />
-                        <Image src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg" alt="destination image" className='w-full h-auto rounded-tr-xl' height={100} width={100} />
-                        <Image src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg" alt="destination image" className='w-full h-auto' height={100} width={100} />
+                    <div className='grid grid-cols-2 gap-1 md:w-1/2'>
+                        <Image src={data.images[1]} alt="destination image" className='w-full h-full object-cover' height={400} width={400} />
+                        <Image src={data.images[2]} alt="destination image" className='w-full h-full rounded-tr-xl object-cover' height={400} width={400} />
+                        <Image src={data.images[3]} alt="destination image" className='w-full h-full object-cover' height={400} width={400} />
                         <div className='relative'>
-                            <Image src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg" alt="destination image" className='w-full h-auto rounded-br-xl brightness-75' height={100} width={100} />
+                            <Image src={data.images[4]} alt="destination image" className='w-full h-full rounded-br-xl brightness-75 object-cover' height={400} width={400} />
                             <div className='absolute bottom-4 right-4'>
                                 <button className='bg-white p-1 px-2 rounded font-medium flex gap-2 text-sm items-center'><Images size={18} />All Images</button>
                             </div>
