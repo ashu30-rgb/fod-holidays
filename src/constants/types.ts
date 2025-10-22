@@ -12,6 +12,7 @@ export interface MainDataType {
 export interface PriceType {
   type: string;
   price: number;
+  isHoneyMoon?:boolean
 }
 
 export interface DurationType {

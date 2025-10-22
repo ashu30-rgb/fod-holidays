@@ -18,7 +18,8 @@ const styles = {
     LabelTitle: () => ({
         fontSize: 20,
         fontWeight: 400,
-        marginLeft: 8
+        marginLeft: 8,
+        textAlign:"left"
     }),
 
 };

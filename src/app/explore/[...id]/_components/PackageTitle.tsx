@@ -49,7 +49,7 @@ function PackageTitle({data}:{data:MainDataType}) {
             <div className="p-4 w-1/3 border rounded-xl shadow-lg drop-shadow-lg h-fit flex flex-col gap-2">
                 <p>Starting From</p>
                 <h3 className="text-4xl font-bold text-fodOrange">&#8377; {data.prices[0].price}/- </h3>
-                <p className="text-fodOrange">Per Person</p>
+                <p className="text-fodOrange">Per {data.prices[0].isHoneyMoon?"Couple":"Person"}</p>
                 <p>{data.duration.day} Days & {data.duration.night} Nights</p>
                 <button className="btn-primary mt-4">Book Now</button>
             </div>

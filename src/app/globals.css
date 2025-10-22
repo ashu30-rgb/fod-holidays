@@ -16,7 +16,7 @@ outline: none
 }
 
 .card-button {
-  @apply rounded-full p-2 px-12 text-base font-semibold capitalize bg-fodOrange text-white  w-52;
+  @apply rounded-full p-2 px-12 text-base font-semibold capitalize bg-fodOrange text-white;
 }
 
 .title-underline {

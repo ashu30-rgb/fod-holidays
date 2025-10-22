@@ -27,12 +27,13 @@ function PackageHero({data}:{data:MainDataType}) {
             loop={true}
             modules={[Autoplay, Navigation]}
           >
-            { new Array(5).fill(0)?.map((banner, index) => {
+            { data.images?.map((image, index) => {
               return (
                 <SwiperSlide key={index}>
                   <Image
                     className="w-full h-[calc(100vh-80px)] max-h-[350px] md:max-h-[550px] object-cover bg-center rounded-b-lg"
-                    src="https://images.pexels.com/photos/20889591/pexels-photo-20889591.jpeg"
+                    src={image}
+                    loading='lazy'
                     alt="medical clinics, medical centre, clinic near, medicine care"
                     width={1920}
                     height={1080}

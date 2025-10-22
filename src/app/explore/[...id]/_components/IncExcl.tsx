@@ -10,8 +10,8 @@ function IncExcl({data}:{data:MainDataType}) {
                 <div className='p-2 border-r mt-2 w-1/2'>
                     <h3 className=" text-xl font-semibold">Inclusions</h3>
                     <ul className='mt-4 space-y-2'>
-                        {data.inclusions.map((item)=>(
-                        <li className='flex gap-2 items-center'>
+                        {data.inclusions.map((item,index)=>(
+                        <li key={index} className='flex gap-2 items-center'>
                             <CircleCheckBig className='text-green-500' />
                             {item}
                         </li>
@@ -21,8 +21,8 @@ function IncExcl({data}:{data:MainDataType}) {
                 <div className='p-2 mt-2 w-1/2 ps-4'>
                     <h3 className=" text-xl font-semibold">Exclusions</h3>
                     <ul className='mt-4 space-y-2'>
-                        {data.exclusions.map((item)=>(
-                        <li className='flex gap-2 items-center'>
+                        {data.exclusions.map((item,index)=>(
+                        <li key={index} className='flex gap-2 items-center'>
                             <X className='text-red-500' />
                             {item}
                         </li>
