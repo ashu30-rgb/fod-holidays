@@ -51,3 +51,45 @@ outline: none
   background-color: #fc5b0b;
   border-radius: 2px;
 }
+
+#about {
+  background-image: url(https://res.cloudinary.com/dgghqzaxo/image/upload/v1761246326/FOD%20Holidays/WhatsApp_Image_2025-10-21_at_00.52.59_dz4rph.jpg);
+}
+
+.about-middle-bg {
+  background-image: url(https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131637/FOD%20Holidays/Kasol%20-%20Kheerganga/aayushmaan-sharma-oyvov12ISyA-unsplash_huh9hl.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.rx-logo-bg {
+  background-image: url(../assets/logo-bg.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.head-top {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top-overlay {
+  @apply absolute top-0 left-0 h-full w-full;
+  background-color: transparent;
+  /* background-image: linear-gradient(180deg, #0000004d 50%, #000000cc 100%); */
+  background-image: linear-gradient(180deg, #0000001C 50%, #00000099 100%);
+  opacity: 1;
+  transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
+}

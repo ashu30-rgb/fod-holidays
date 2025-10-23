@@ -13,8 +13,8 @@ const PackageDetails = ({ params }: { params: { id: string } }) => {
         return
     }
     return (
-        <div className='bg-white'>
-            <section className="w-full max-w-7xl mx-auto">
+        <div className='bg-white '>
+            <section className="w-full ">
                 <PackageHero data={data} />
             </section>
             <section className='p-4 '>

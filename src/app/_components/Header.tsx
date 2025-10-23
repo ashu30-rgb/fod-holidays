@@ -22,7 +22,7 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8 font-medium text-white">
             <a href="#" className="hover:text-blue-600 transition">Home</a>
             <Link href="/explore" className="hover:text-blue-600 transition">Explore</Link>
-            <a href="#" className="hover:text-blue-600 transition">About</a>
+            <Link href="/about" className="hover:text-blue-600 transition">About</Link>
             <a href="#" className="hover:text-blue-600 transition">Projects</a>
             <a href="#" className="hover:text-blue-600 transition">Contact</a>
           </nav>

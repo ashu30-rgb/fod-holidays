@@ -34,7 +34,7 @@ function PackageHero({data}:{data:MainDataType}) {
                     className="w-full h-[calc(100vh-80px)] max-h-[350px] md:max-h-[550px] object-cover bg-center rounded-b-lg"
                     src={image}
                     loading='lazy'
-                    alt="medical clinics, medical centre, clinic near, medicine care"
+                    alt={data.name+"image"}
                     width={1920}
                     height={1080}
                   />

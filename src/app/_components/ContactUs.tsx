@@ -11,8 +11,8 @@ function ContactUs() {
                     <p className='pt-8 text-xl font-medium text-fodOrange/80'>You're welcome to reach out to us by phone, email, or by visiting us in person.
                     </p>
                 </div>
-                <div className='mt-12 flex gap-10'>
-                    <div className='w-1/3 shadow p-8 flex flex-col gap-8 rounded-lg'>
+                <div className='mt-12 flex flex-col lg:flex-row gap-10'>
+                    <div className='lg:w-1/3 shadow border p-8 flex flex-col gap-8 rounded-lg'>
                         <h2 className='text-4xl font-semibold text-fodBlue'>FOD Holidays Office</h2>
                         <p className='text-lg flex items-center gap-4'> <MapPin size={40} />FOD TOWER, Simar Enclave, Maheru, Punjab 144411</p>
                         <p className='text-lg flex items-center gap-4'><Phone />+91 9889636205</p>

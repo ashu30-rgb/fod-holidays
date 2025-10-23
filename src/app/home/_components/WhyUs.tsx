@@ -1,7 +1,6 @@
-"use client"
+import StatsCount from '@fod/app/_components/StatsCount';
 import { Plane } from 'lucide-react'
 import React from 'react'
-import CountUp from 'react-countup';
 
 function WhyUs() {
     return (
@@ -39,24 +38,7 @@ function WhyUs() {
 
             </div>
             <div className='bg-fodOrange/10 p-10'>
-            <div className='max-w-7xl mx-auto w-full flex items-center justify-between gap-10'>
-                <div className='text-center'>
-                    <h3 className='text-4xl font-bold text-fodBlue'><CountUp end={10000} enableScrollSpy/>+</h3>
-                    <p className='text-xl font-semibold text-fodOrange'>Happy Travelers</p>
-                </div>
-                <div className='text-center'>
-                    <h3 className='text-4xl font-bold text-fodBlue'><CountUp end={500} enableScrollSpy/>+</h3>
-                    <p className='text-xl font-semibold text-fodOrange'>Successfull Trips</p>
-                </div>
-                <div className='text-center'>
-                    <h3 className='text-4xl font-bold text-fodBlue'><CountUp end={200} enableScrollSpy/>+</h3>
-                    <p className='text-xl font-semibold text-fodOrange'>Destinations</p>
-                </div>
-                <div className='text-center'>
-                    <h3 className='text-4xl font-bold text-fodBlue'><CountUp end={5} enableScrollSpy/>+</h3>
-                    <p className='text-xl font-semibold text-fodOrange'>Years Of Experience</p>
-                </div>
-            </div>
+                <StatsCount />
             </div>
         </div>
     )

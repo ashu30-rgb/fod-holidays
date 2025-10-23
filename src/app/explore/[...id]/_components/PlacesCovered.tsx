@@ -46,14 +46,14 @@ function PlacesCovered({ data }: { data: MainDataType }) {
                 </div>
                 <div className='w-3/4 flex gap-1 rounded-xl'>
                     <div className='w-1/2 hidden md:block'>
-                        <Image src={data.images[0]} alt="destination image" className='w-full h-full rounded-l-xl object-cover' height={600} width={600}  />
+                        <Image src={data.images[0]} alt={data.name+"image"} className='w-full h-full rounded-l-xl object-cover' height={600} width={600}  />
                     </div>
                     <div className='grid grid-cols-2 gap-1 md:w-1/2'>
-                        <Image src={data.images[1]} alt="destination image" className='w-full h-full object-cover' height={400} width={400} />
-                        <Image src={data.images[2]} alt="destination image" className='w-full h-full rounded-tr-xl object-cover' height={400} width={400} />
-                        <Image src={data.images[3]} alt="destination image" className='w-full h-full object-cover' height={400} width={400} />
+                        <Image src={data.images[1]} alt={data.name+"image"} className='w-full h-full object-cover' height={400} width={400} />
+                        <Image src={data.images[2]} alt={data.name+"image"} className='w-full h-full rounded-tr-xl object-cover' height={400} width={400} />
+                        <Image src={data.images[3]} alt={data.name+"image"} className='w-full h-full object-cover' height={400} width={400} />
                         <div className='relative'>
-                            <Image src={data.images[4]} alt="destination image" className='w-full h-full rounded-br-xl brightness-75 object-cover' height={400} width={400} />
+                            <Image src={data.images[4]} alt={data.name+"image"} className='w-full h-full rounded-br-xl brightness-75 object-cover' height={400} width={400} />
                             <div className='absolute bottom-4 right-4'>
                                 <button className='bg-white p-1 px-2 rounded font-medium flex gap-2 text-sm items-center'><Images size={18} />All Images</button>
                             </div>
