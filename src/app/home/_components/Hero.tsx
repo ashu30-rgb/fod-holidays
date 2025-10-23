@@ -1,17 +1,27 @@
+"use client"
 import { IndianRupee, MapPin, MoveRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import VideoSection from './Video'
+import { ReactTyped } from 'react-typed'
 
 function Hero() {
     return (
         <div className='relative'>
-            <Image src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/542000/542607-singapore.jpg" alt='Home' width={200} height={100} className='w-screen' />
+            <div className=''>
+            <VideoSection />
+            </div>
+            {/* <Image src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/542000/542607-singapore.jpg" alt='Home' width={200} height={100} className='w-screen' /> */}
 
             <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 bg-black/50 h-full flex justify-center">
                 <div className='w-full h-full lg:w-3/5 flex flex-col gap-4 justify-center items-center text-white'>
                     <h1 className="text-7xl font-extrabold">
                         Explore. Book. Travel.
                     </h1>
+                    <div className='text-3xl md:text-7xl font-bold text-fodOrange min-h-20'>
+                        <ReactTyped showCursor={false} strings={["Adventure", "Honeymoon", "Explorations", "Mountains","Valleys","Beaches","Trekking","Memories"]} typeSpeed={51} backSpeed={21} loop />
+                    </div>
+
                     <p className='text-2xl text-center'>Your next adventure is just a click away - discover destinations, compare deals, and start your journey with us</p>
                     <button className='btn-primary mt-8'>Start Tour
                         <MoveRight />

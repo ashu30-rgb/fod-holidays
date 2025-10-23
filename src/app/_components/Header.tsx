@@ -16,15 +16,17 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Image src={Logo} alt='FOD Logo' height={60}/>
+          <Link href="/">
+            <Image src={Logo} alt='FOD Logo' height={60} />
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8 font-medium text-white">
-            <a href="#" className="hover:text-blue-600 transition">Home</a>
-            <Link href="/explore" className="hover:text-blue-600 transition">Explore</Link>
-            <Link href="/about" className="hover:text-blue-600 transition">About</Link>
-            <a href="#" className="hover:text-blue-600 transition">Projects</a>
-            <a href="#" className="hover:text-blue-600 transition">Contact</a>
+            <a href="/" className="hover:text-fodOrange transition">Home</a>
+            <Link href="/explore" className="hover:text-fodOrange transition">Explore</Link>
+            <Link href="/about" className="hover:text-fodOrangetransition">About</Link>
+            <a href="/faq" className="hover:text-fodOrange transition">FAQ's</a>
+            <a href="/contact" className="hover:text-fodOrange transition">Contact</a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -39,9 +41,8 @@ export default function Header() {
 
       {/* Mobile Dropdown with animation */}
       <div
-        className={`md:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out overflow-hidden ${
-          isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-        }`}
+        className={`md:hidden bg-white border-t border-gray-200 transition-all duration-300 ease-in-out overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+          }`}
       >
         <nav className="flex flex-col items-center py-4 space-y-4 font-medium text-gray-700">
           <a href="#" className="hover:text-blue-600 transition">Home</a>

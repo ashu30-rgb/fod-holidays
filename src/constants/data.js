@@ -1,3 +1,5 @@
+export const HOMEPAGE_VIDEO_URL = "https://res.cloudinary.com/dgghqzaxo/video/upload/v1761249884/FOD%20Holidays/fod_hrms5i.mp4"
+
 export const MAIN_DATA = [
   {
     id: 1,
