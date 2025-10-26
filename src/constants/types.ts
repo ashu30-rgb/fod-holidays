@@ -1,7 +1,7 @@
 export interface MainDataType {
   id: number;
   name: string;
-  desc:string;
+  desc: string;
   images: string[];
   prices: PriceType[];
   duration: DurationType;
@@ -12,14 +12,19 @@ export interface MainDataType {
 
 export interface PriceType {
   type: SharingType;
-  label:string;
+  label: string;
   price: number;
-  isHoneyMoon?:boolean
+  isHoneyMoon?: boolean;
 }
 
 export interface DurationType {
-    day: number;
-    night: number;
+  day: number;
+  night: number;
 }
 
-export type SharingType = "quad"|"triple"|"double"|"couple"|"single"
+export type SharingType = "quad" | "triple" | "double" | "couple" | "single";
+
+export interface FaqDataType {
+  ques: string;
+  ans: string;
+}

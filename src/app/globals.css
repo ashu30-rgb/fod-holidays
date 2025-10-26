@@ -93,3 +93,28 @@ outline: none
   opacity: 1;
   transition: all 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+
+.accordian,
+.accordion {
+  border: none !important;
+}
+
+.accordion__button {
+  border-radius: 5px !important;
+  background: linear-gradient(
+    90deg,
+    #fc5b0b 0%,
+    #fc5b0b50 50%,
+    #ffffff 100%
+  );
+  font-weight: bold !important;
+  color: white !important;
+}
+
+.accordion__heading {
+  background-color: white !important;
+}
+
+.accordion__button:before {
+  transition-duration: 500ms !important;
+}

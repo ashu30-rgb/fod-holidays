@@ -550,3 +550,59 @@ export const MAIN_DATA: MainDataType[] = [
     ],
   },
 ];
+
+
+export const FAQ_DATA ={
+  "generalQuestions": [
+    {
+      "ques": "How do I book a trip with your company?",
+      "ans": "You can book directly through our website by selecting your preferred package and dates. Alternatively, you can contact our travel experts through WhatsApp or call for personalized booking assistance."
+    },
+    {
+      "ques": "What’s included in your travel packages?",
+      "ans": "Our packages generally include accommodation, transportation, sightseeing, and activities as listed in the itinerary. Meals, bonfires, and event nights may vary depending on the destination."
+    },
+    {
+      "ques": "Are your trips suitable for solo travelers?",
+      "ans": "Absolutely! Many of our guests are solo travelers. We ensure a friendly, safe, and inclusive environment so you can make new friends while exploring new places."
+    },
+    {
+      "ques": "Can I customize a tour package?",
+      "ans": "Yes, we offer fully customizable options. Whether you want to extend your stay, add destinations, or upgrade accommodations, our team can tailor your itinerary to fit your travel style."
+    },
+    {
+      "ques": "What kind of accommodation do you provide?",
+      "ans": "We partner with verified hotels, camps, and homestays offering clean, comfortable, and safe stays. The type of accommodation depends on your package category — standard, deluxe, or premium."
+    },
+    {
+      "ques": "What if I need to cancel or reschedule my trip?",
+      "ans": "We understand plans can change. Our cancellation and rescheduling policies are flexible — just reach out to our support team to know the applicable charges based on your package."
+    }
+  ],
+  "frequentlyAskedQuestions": [
+    {
+      "ques": "Do you organize group trips or private tours?",
+      "ans": "Yes! We offer both. You can join our fixed group departures for a fun, social experience, or book a private trip for a more personalized journey."
+    },
+    {
+      "ques": "Are your tours safe for women travelers?",
+      "ans": "Safety is our top priority. We ensure verified stays, professional drivers, and 24/7 trip support. Many of our trips include women-only groups for added comfort and confidence."
+    },
+    {
+      "ques": "How big are your travel groups?",
+      "ans": "Our groups usually range from 10–20 travelers, depending on the destination. We keep groups small to ensure personalized attention and a better travel experience."
+    },
+    {
+      "ques": "What should I pack for a Himalayan trip?",
+      "ans": "Carry layered warm clothes, trekking shoes, personal medicines, a torch, and essentials like a power bank and reusable bottle. We’ll also share a detailed packing list before departure."
+    },
+    {
+      "ques": "Do you provide travel insurance?",
+      "ans": "Yes, travel insurance can be arranged upon request. It’s highly recommended, especially for high-altitude or adventure destinations."
+    },
+    {
+      "ques": "How do I stay updated about trip details after booking?",
+      "ans": "Once you book, you’ll receive a confirmation email and WhatsApp updates with your itinerary, meeting points, and trip manager details before departure."
+    }
+  ]
+}
