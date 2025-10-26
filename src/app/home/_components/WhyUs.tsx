@@ -8,7 +8,7 @@ import STATS3 from "@fod/assets/icons/stats3.svg"
 
 function WhyUs() {
     return (
-        <div className='pt-16'>
+        <div className='pt-16 p-4'>
             <div className='max-w-7xl mx-auto mb-16'>
                 <div className='text-center'>
                     <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Why Choose Us</h2>

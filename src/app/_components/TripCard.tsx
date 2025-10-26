@@ -6,7 +6,7 @@ import React from 'react'
 
 const TripCard = ({ data }: { data: MainDataType }) => {
     return (
-        <div className="bg-white w-[360px]  md:w-96 rounded-3xl font-source-sans border-2 border-fodOrange/50">
+        <div className="bg-white w-[360px] md:w-96 rounded-3xl font-source-sans border-2 border-fodOrange/50">
             <div className="relative">
                 <Image
                     className="rounded-3xl h-72 object-cover "

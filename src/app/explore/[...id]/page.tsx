@@ -6,9 +6,11 @@ import IncExcl from './_components/IncExcl'
 import Policy from './_components/Policy'
 import Stats from './_components/Stats'
 import { MAIN_DATA } from '@fod/constants/data'
+import PricingOptions from './_components/PricingOptions'
 
-const PackageDetails = ({ params }: { params: { id: string } }) => {
-    const data = MAIN_DATA.find((data) => data.id === parseInt(params.id[0]))
+const PackageDetails =  ({ params }: { params: { id: string } }) => {
+    const id =  parseInt(params.id[0])
+    const data = MAIN_DATA.find((data) => data.id === id)
     if (!data) {
         return
     }
@@ -25,6 +27,11 @@ const PackageDetails = ({ params }: { params: { id: string } }) => {
             <section className='p-4'>
                 <div className="w-full max-w-7xl mx-auto">
                     <PlacesCovered data={data} />
+                </div>
+            </section>
+            <section className='p-4'>
+                <div className="w-full max-w-7xl mx-auto">
+                    <PricingOptions data={data} />
                 </div>
             </section>
             <section className='p-4 py-8 md:p-8'>

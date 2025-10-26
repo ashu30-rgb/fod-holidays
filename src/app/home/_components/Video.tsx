@@ -8,7 +8,7 @@ export default function VideoSection() {
 
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full h-full">
       <ReactPlayer
         url={HOMEPAGE_VIDEO_URL}
         playing

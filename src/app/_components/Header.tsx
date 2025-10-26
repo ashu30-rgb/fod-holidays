@@ -5,8 +5,11 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from "@fod/assets/logo.png"
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+    const currentRoute = usePathname();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -22,11 +25,11 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8 font-medium text-white">
-            <a href="/" className="hover:text-fodOrange transition">Home</a>
-            <Link href="/explore" className="hover:text-fodOrange transition">Explore</Link>
-            <Link href="/about" className="hover:text-fodOrangetransition">About</Link>
-            <a href="/faq" className="hover:text-fodOrange transition">FAQ's</a>
-            <a href="/contact" className="hover:text-fodOrange transition">Contact</a>
+            <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
+            <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "!font-bold text-fodOrange"}`}>Explore</Link>
+            <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>
+            <Link href="/faq" className={`hover:text-fodOrange transition ${currentRoute==="/faq" && "font-bold text-fodOrange"}`}>FAQ's</Link>
+            <Link href="/contact" className={`hover:text-fodOrange transition ${currentRoute==="/contact" && "font-bold text-fodOrange"}`}>Contact</Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -45,11 +48,11 @@ export default function Header() {
           }`}
       >
         <nav className="flex flex-col items-center py-4 space-y-4 font-medium text-gray-700">
-          <a href="#" className="hover:text-blue-600 transition">Home</a>
-          <a href="#" className="hover:text-blue-600 transition">About</a>
-          <a href="#" className="hover:text-blue-600 transition">Services</a>
-          <a href="#" className="hover:text-blue-600 transition">Projects</a>
-          <a href="#" className="hover:text-blue-600 transition">Contact</a>
+          <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
+          <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "font-bold text-fodOrange"}`}>Explore</Link>
+          <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>
+          <Link href="/faq" className={`hover:text-fodOrange transition ${currentRoute==="/faq" && "font-bold text-fodOrange"}`}>FAQ's</Link>
+          <Link href="/contact" className={`hover:text-fodOrange transition ${currentRoute==="/contact" && "font-bold text-fodOrange"}`}>Contact</Link>
         </nav>
       </div>
     </header>
