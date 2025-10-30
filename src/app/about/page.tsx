@@ -18,7 +18,7 @@ function AboutPage() {
             <div id="about" className="relative head-top min-h-screen bg-black text-white flex justify-center items-center">
                 <div className="top-overlay absolute top-0 left-0 h-full w-full"></div>
                 <div data-aos="fade-right" className='relative max-w-6xl mx-auto'>
-                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>About FOD Holidays</div>
+                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>About <span className='text-fodOrange'>FOD Holidays</span></div>
                     <div className='md:flex justify-end'>
                         <div className='text-xl lg:text-3xl font-semibold text-center'>Welcome to FOD Holidays, where adventure meets comfort, and every trip becomes a memory. An unparalleled travel experience.</div>
                     </div>

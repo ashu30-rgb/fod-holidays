@@ -7,6 +7,7 @@ import Policy from './_components/Policy'
 import Stats from './_components/Stats'
 import { MAIN_DATA } from '@fod/constants/data'
 import PricingOptions from './_components/PricingOptions'
+import RelatedTrips from './_components/RelatedTrips'
 
 const PackageDetails =  ({ params }: { params: { id: string } }) => {
     const id =  parseInt(params.id[0])
@@ -47,6 +48,11 @@ const PackageDetails =  ({ params }: { params: { id: string } }) => {
             <section className='p-4 py-8 md:p-8'>
                 <div className="w-full max-w-7xl mx-auto">
                     <Policy />
+                </div>
+            </section>
+            <section className='p-4 py-8 md:p-8 '>
+                <div className="w-full max-w-7xl mx-auto">
+                    <RelatedTrips id={id} />
                 </div>
             </section>
         </div>

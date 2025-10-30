@@ -32,7 +32,9 @@ export default function RootLayout({
         className={`${roboto.className} ${geistSans.variable} antialiased`}
       >
         <Header/>
+        <div className="pt-16">
         {children}
+        </div>
         <Footer/>
       </body>
     </html>
