@@ -4,6 +4,7 @@ import React from 'react'
 import VideoSection from './Video'
 import { ReactTyped } from 'react-typed'
 import SearchBar from '@fod/app/_components/SearchBar'
+import Link from 'next/link'
 
 function Hero() {
     return (
@@ -20,9 +21,9 @@ function Hero() {
                     </div>
 
                     <p className='text-sm md:text-lg lg:text-2xl text-center'>Your next adventure is just a click away - discover destinations, compare deals, and start your journey with us</p>
-                    <button className='btn-primary mt-8'>Start Tour
+                    <Link href='/explore' className='btn-primary mt-8 cursor-pointer'>Start Tour
                         <MoveRight />
-                    </button>
+                    </Link>
                 </div>
             </div>
             </div>

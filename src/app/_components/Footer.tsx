@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter, FaLinkedinIn, FaArrowUp } from "react-icons/fa6";
 
@@ -31,13 +32,11 @@ const Footer = () => {
         <div className="md:ml-10">
           <h3 className="text-xl font-semibold mb-4">Quick Action</h3>
           <div className="grid grid-cols-2 gap-y-2 text-gray-300 text-sm">
-            <a href="#" className="hover:text-fodOrange">Home</a>
-            <a href="#" className="hover:text-fodOrange">FAQ's</a>
-            <a href="#" className="hover:text-fodOrange">Explore</a>
-            <a href="#" className="hover:text-fodOrange">Contact Us</a>
-            <a href="#" className="hover:text-fodOrange">Weekend Trips</a>
-            <a href="#" className="hover:text-fodOrange">Blogs and Newsletters</a>
-            <a href="#" className="hover:text-fodOrange">About Us</a>
+            <Link href="/" className="hover:text-fodOrange">Home</Link>
+            <Link href="/explore" className="hover:text-fodOrange">Explore</Link>
+            <Link href="/about" className="hover:text-fodOrange">About</Link>
+            <Link href="/faq" className="hover:text-fodOrange">FAQ's</Link>
+            <Link href="/contact" className="hover:text-fodOrange">Contact Us</Link>
           </div>
         </div>
 

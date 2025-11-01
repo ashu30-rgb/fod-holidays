@@ -71,7 +71,7 @@ function page() {
                     <div className=" flex flex-col justify-center items-start gap-2 ">
                         <h5 className=" text-lg font-semibold text-cet">CORPORATE</h5>
                         <p className=" w-56 text-sm">
-                            BKC, C-20, G Block, Bandra-Kurla Complex, Mumbai, MH 400051, India
+                           FOD TOWER, Simar Enclave, Maheru, Punjab 144411
                         </p>
                         <Link href="/contact" className="!text-[#0C6980]">Email Contact Form</Link>
                         <a href="https://wa.me/919650376785" target="blank" className="!text-[#0C6980]">Whatsapp Us</a>

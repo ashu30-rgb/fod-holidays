@@ -15,16 +15,16 @@ export default function Header() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-fodBlue/20 shadow-md z-50">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 px-4">
+      <div className="mx-auto max-w-7xl">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/">
-            <Image src={Logo} alt='FOD Logo' height={60} />
+            <Image src={Logo} alt='FOD Logo' height={48} />
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex space-x-8 font-medium text-white">
+          <nav className="hidden md:flex space-x-8 font-medium ">
             <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
             <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "!font-bold text-fodOrange"}`}>Explore</Link>
             <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>
