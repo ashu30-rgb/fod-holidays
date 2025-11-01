@@ -7,7 +7,7 @@ export const MAIN_DATA: MainDataType[] = [
   {
     id: 1,
     name: "Chopta Tungnath",
-    desc:"Embark on a scenic adventure to Chopta Valley and Tungnath Temple. Enjoy breathtaking mountain views, cozy stays, bonfires, and starry nights while exploring Rishikesh and Haridwar with expert guides and great company.",
+    desc: "Embark on a scenic adventure to Chopta Valley and Tungnath Temple. Enjoy breathtaking mountain views, cozy stays, bonfires, and starry nights while exploring Rishikesh and Haridwar with expert guides and great company.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131160/FOD%20Holidays/Chopta%20Tungnath/ashwini-chaudhary-monty-bsVt1_On_gk-unsplash_nwajyv.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131172/FOD%20Holidays/Chopta%20Tungnath/ankit-mishra-Q-GnjgTsqz0-unsplash_aviisj.jpg",
@@ -45,11 +45,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 2,
     name: "Manali - Rohtang - Kasol",
-    desc:"Discover the charm of Manali and the tranquility of Kasol on this stunning Himalayan getaway. Visit Rohtang Pass, Atal Tunnel, and Manikaran, with comfortable stays, bonfires, and DJ nights included.",
+    desc: "Discover the charm of Manali and the tranquility of Kasol on this stunning Himalayan getaway. Visit Rohtang Pass, Atal Tunnel, and Manikaran, with comfortable stays, bonfires, and DJ nights included.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131840/FOD%20Holidays/Manali%20-%20Rohtang%20-%20Kasol/vishy-9ttisCSNCOc-unsplash_mwpc5f.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131841/FOD%20Holidays/Manali%20-%20Rohtang%20-%20Kasol/sunil-kumar-npNDDOy7kNM-unsplash_f46wzx.jpg",
@@ -93,11 +95,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 3,
     name: "Udaipur - Mount Abu",
-    desc:"Experience the royal beauty of Udaipur and the cool hills of Mount Abu. Explore palaces, lakes, and historic sights while enjoying bonfires, scenic stays, and authentic Rajasthani hospitality throughout your journey.",
+    desc: "Experience the royal beauty of Udaipur and the cool hills of Mount Abu. Explore palaces, lakes, and historic sights while enjoying bonfires, scenic stays, and authentic Rajasthani hospitality throughout your journey.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761133106/FOD%20Holidays/Udaipur%20-%20Mount%20Abu/pranav-panchal-IEArgDckRuQ-unsplash_hpefr6.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761133117/FOD%20Holidays/Udaipur%20-%20Mount%20Abu/kashish-lamba-JfowJjlcK8A-unsplash_hrroxc.jpg",
@@ -136,11 +140,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 4,
     name: "Tirthan - Jibhi - Jalori",
-    desc:"Unwind in the hidden gems of Himachal—Tirthan, Jibhi, and Jalori. Enjoy serene waterfalls, mountain lakes, cozy stays, bonfires, and scenic treks in the lap of nature with fellow explorers.",
+    desc: "Unwind in the hidden gems of Himachal—Tirthan, Jibhi, and Jalori. Enjoy serene waterfalls, mountain lakes, cozy stays, bonfires, and scenic treks in the lap of nature with fellow explorers.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132485/FOD%20Holidays/Tirthan%20-%20Jibhi%20-%20Jalori/payal-badhran-sWuY2RSVLBk-unsplash_boshmy.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132494/FOD%20Holidays/Tirthan%20-%20Jibhi%20-%20Jalori/uday-pratap-singh-atwal-Sd23uGga0dU-unsplash_fqmrse.jpg",
@@ -181,11 +187,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 5,
     name: "Mcleodganj - Triund",
-    desc:"Escape to Mcleodganj’s calm and trek to the scenic Triund Valley. Visit Dalai Lama Temple, Dal Lake, and Dharamshala, with evenings spent around bonfires under the stars.",
+    desc: "Escape to Mcleodganj’s calm and trek to the scenic Triund Valley. Visit Dalai Lama Temple, Dal Lake, and Dharamshala, with evenings spent around bonfires under the stars.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131942/FOD%20Holidays/Mcleodganj%20-%20Triund/shashank-verma-4q3oidhiDXY-unsplash_r5a69g.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131948/FOD%20Holidays/Mcleodganj%20-%20Triund/nikhil-v-BzO5EBSCXv4-unsplash_zfzjmf.jpg",
@@ -225,11 +233,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 6,
     name: "Kasol - Kheerganga",
-    desc:"Explore the magic of Parvati Valley with a trek to Kheerganga. Relax in natural hot springs, wander Kasol’s markets, and soak in mountain views with guided travel and lively bonfire nights.",
+    desc: "Explore the magic of Parvati Valley with a trek to Kheerganga. Relax in natural hot springs, wander Kasol’s markets, and soak in mountain views with guided travel and lively bonfire nights.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131641/FOD%20Holidays/Kasol%20-%20Kheerganga/rishabh-dharmani-bsXoqhN299A-unsplash_uamxna.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131651/FOD%20Holidays/Kasol%20-%20Kheerganga/lucas-hemingway-dpHgkc533z4-unsplash_rwxnpe.jpg",
@@ -270,11 +280,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 7,
     name: "Kedarnath - Badrinath",
-    desc:"A divine journey to the sacred shrines of Kedarnath and Badrinath. Experience spiritual serenity, Himalayan landscapes, and guided travel with comfortable stays and soulful evenings by the fire.",
+    desc: "A divine journey to the sacred shrines of Kedarnath and Badrinath. Experience spiritual serenity, Himalayan landscapes, and guided travel with comfortable stays and soulful evenings by the fire.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131722/FOD%20Holidays/Kedarnath%20-%20Badrinath/akshay-syal-5vDTocCCutE-unsplash_okfrqj.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131730/FOD%20Holidays/Kedarnath%20-%20Badrinath/gagan-deep-dXqbPIiJvYc-unsplash_jpeuqr.jpg",
@@ -315,11 +327,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 8,
     name: "Shimla - Manali Honeymoon",
-    desc:"A dreamy honeymoon through the hills of Shimla and Manali. Enjoy snow-clad adventures, scenic sightseeing, romantic evenings, and cozy stays designed for couples seeking love, relaxation, and lasting memories.",
+    desc: "A dreamy honeymoon through the hills of Shimla and Manali. Enjoy snow-clad adventures, scenic sightseeing, romantic evenings, and cozy stays designed for couples seeking love, relaxation, and lasting memories.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132302/FOD%20Holidays/Shimla%20-%20Manali%20Honeymoon/315_bsabok.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132348/FOD%20Holidays/Shimla%20-%20Manali%20Honeymoon/yash-kiran-qxp9X5t9hQ4-unsplash_u4d5wq.jpg",
@@ -364,11 +378,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 9,
     name: "Rishikesh Adventure",
-    desc:"Dive into thrill and tranquility in Rishikesh. Experience river rafting, secret waterfalls, Ganga Aarti, and peaceful stays with bonfires and DJ nights on this short yet unforgettable Himalayan escape.",
+    desc: "Dive into thrill and tranquility in Rishikesh. Experience river rafting, secret waterfalls, Ganga Aarti, and peaceful stays with bonfires and DJ nights on this short yet unforgettable Himalayan escape.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132241/FOD%20Holidays/Rishikesh%20Adventure/visual-voir-qDvc3Q2G7lo-unsplash_la2h5e.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132030/FOD%20Holidays/Rishikesh%20Adventure/narinder-pal-b9xWxpbe9vw-unsplash_antnkp.jpg",
@@ -406,11 +422,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 10,
     name: "Kedarnath Yatra",
-    desc:"Set out on a spiritual journey to Kedarnath. Visit Guptkashi, Sonprayag, and Gaurikund, trek through divine routes, and find peace in the Himalayas with comfortable stays and guided support.",
+    desc: "Set out on a spiritual journey to Kedarnath. Visit Guptkashi, Sonprayag, and Gaurikund, trek through divine routes, and find peace in the Himalayas with comfortable stays and guided support.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131729/FOD%20Holidays/Kedarnath%20-%20Badrinath/shikhar-sharma-Pf-rTGteWyc-unsplash_u3wpea.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131730/FOD%20Holidays/Kedarnath%20-%20Badrinath/gagan-deep-dXqbPIiJvYc-unsplash_jpeuqr.jpg",
@@ -451,11 +469,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 11,
     name: "Goa Honymoon Package",
-    desc:"Celebrate love in Goa with beaches, candlelight dinners, and coastal adventures. Indulge in romantic evenings, cruises, and scenic beauty while staying at premium resorts designed for an unforgettable honeymoon experience.",
+    desc: "Celebrate love in Goa with beaches, candlelight dinners, and coastal adventures. Indulge in romantic evenings, cruises, and scenic beauty while staying at premium resorts designed for an unforgettable honeymoon experience.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131545/FOD%20Holidays/Goa%20Honymoon%20Package/Beach-Honeymoon-in-Goa_h6m0mj.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131545/FOD%20Holidays/Goa%20Honymoon%20Package/1296x864_z8biwt.jpg",
@@ -497,11 +517,13 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
   {
     id: 12,
     name: "Manali - Kasol Honeymoon",
-    desc:"A romantic getaway through the valleys of Manali and Kasol. Enjoy scenic views, private sightseeing, floral decor, and cozy stays — perfect for couples seeking peace, adventure, and togetherness in nature.",
+    desc: "A romantic getaway through the valleys of Manali and Kasol. Enjoy scenic views, private sightseeing, floral decor, and cozy stays — perfect for couples seeking peace, adventure, and togetherness in nature.",
     images: [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131474/FOD%20Holidays/Manali%20-%20Kasol%20Honeymoon/Banner_Image_1_o8ltfv.jpg",
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131345/FOD%20Holidays/Manali%20-%20Kasol%20Honeymoon/nayan-tara-sOreumdCaKI-unsplash_pdmpad.jpg",
@@ -548,61 +570,62 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
+    bookingUrl:
+      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
   },
 ];
 
-
-export const FAQ_DATA ={
-  "generalQuestions": [
+export const FAQ_DATA = {
+  generalQuestions: [
     {
-      "ques": "How do I book a trip with your company?",
-      "ans": "You can book directly through our website by selecting your preferred package and dates. Alternatively, you can contact our travel experts through WhatsApp or call for personalized booking assistance."
+      ques: "How do I book a trip with your company?",
+      ans: "You can book directly through our website by selecting your preferred package and dates. Alternatively, you can contact our travel experts through WhatsApp or call for personalized booking assistance.",
     },
     {
-      "ques": "What’s included in your travel packages?",
-      "ans": "Our packages generally include accommodation, transportation, sightseeing, and activities as listed in the itinerary. Meals, bonfires, and event nights may vary depending on the destination."
+      ques: "What’s included in your travel packages?",
+      ans: "Our packages generally include accommodation, transportation, sightseeing, and activities as listed in the itinerary. Meals, bonfires, and event nights may vary depending on the destination.",
     },
     {
-      "ques": "Are your trips suitable for solo travelers?",
-      "ans": "Absolutely! Many of our guests are solo travelers. We ensure a friendly, safe, and inclusive environment so you can make new friends while exploring new places."
+      ques: "Are your trips suitable for solo travelers?",
+      ans: "Absolutely! Many of our guests are solo travelers. We ensure a friendly, safe, and inclusive environment so you can make new friends while exploring new places.",
     },
     {
-      "ques": "Can I customize a tour package?",
-      "ans": "Yes, we offer fully customizable options. Whether you want to extend your stay, add destinations, or upgrade accommodations, our team can tailor your itinerary to fit your travel style."
+      ques: "Can I customize a tour package?",
+      ans: "Yes, we offer fully customizable options. Whether you want to extend your stay, add destinations, or upgrade accommodations, our team can tailor your itinerary to fit your travel style.",
     },
     {
-      "ques": "What kind of accommodation do you provide?",
-      "ans": "We partner with verified hotels, camps, and homestays offering clean, comfortable, and safe stays. The type of accommodation depends on your package category — standard, deluxe, or premium."
+      ques: "What kind of accommodation do you provide?",
+      ans: "We partner with verified hotels, camps, and homestays offering clean, comfortable, and safe stays. The type of accommodation depends on your package category — standard, deluxe, or premium.",
     },
     {
-      "ques": "What if I need to cancel or reschedule my trip?",
-      "ans": "We understand plans can change. Our cancellation and rescheduling policies are flexible — just reach out to our support team to know the applicable charges based on your package."
-    }
+      ques: "What if I need to cancel or reschedule my trip?",
+      ans: "We understand plans can change. Our cancellation and rescheduling policies are flexible — just reach out to our support team to know the applicable charges based on your package.",
+    },
   ],
-  "frequentlyAskedQuestions": [
+  frequentlyAskedQuestions: [
     {
-      "ques": "Do you organize group trips or private tours?",
-      "ans": "Yes! We offer both. You can join our fixed group departures for a fun, social experience, or book a private trip for a more personalized journey."
+      ques: "Do you organize group trips or private tours?",
+      ans: "Yes! We offer both. You can join our fixed group departures for a fun, social experience, or book a private trip for a more personalized journey.",
     },
     {
-      "ques": "Are your tours safe for women travelers?",
-      "ans": "Safety is our top priority. We ensure verified stays, professional drivers, and 24/7 trip support. Many of our trips include women-only groups for added comfort and confidence."
+      ques: "Are your tours safe for women travelers?",
+      ans: "Safety is our top priority. We ensure verified stays, professional drivers, and 24/7 trip support. Many of our trips include women-only groups for added comfort and confidence.",
     },
     {
-      "ques": "How big are your travel groups?",
-      "ans": "Our groups usually range from 10–20 travelers, depending on the destination. We keep groups small to ensure personalized attention and a better travel experience."
+      ques: "How big are your travel groups?",
+      ans: "Our groups usually range from 10–20 travelers, depending on the destination. We keep groups small to ensure personalized attention and a better travel experience.",
     },
     {
-      "ques": "What should I pack for a Himalayan trip?",
-      "ans": "Carry layered warm clothes, trekking shoes, personal medicines, a torch, and essentials like a power bank and reusable bottle. We’ll also share a detailed packing list before departure."
+      ques: "What should I pack for a Himalayan trip?",
+      ans: "Carry layered warm clothes, trekking shoes, personal medicines, a torch, and essentials like a power bank and reusable bottle. We’ll also share a detailed packing list before departure.",
     },
     {
-      "ques": "Do you provide travel insurance?",
-      "ans": "Yes, travel insurance can be arranged upon request. It’s highly recommended, especially for high-altitude or adventure destinations."
+      ques: "Do you provide travel insurance?",
+      ans: "Yes, travel insurance can be arranged upon request. It’s highly recommended, especially for high-altitude or adventure destinations.",
     },
     {
-      "ques": "How do I stay updated about trip details after booking?",
-      "ans": "Once you book, you’ll receive a confirmation email and WhatsApp updates with your itinerary, meeting points, and trip manager details before departure."
-    }
-  ]
-}
+      ques: "How do I stay updated about trip details after booking?",
+      ans: "Once you book, you’ll receive a confirmation email and WhatsApp updates with your itinerary, meeting points, and trip manager details before departure.",
+    },
+  ],
+};

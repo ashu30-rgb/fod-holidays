@@ -58,7 +58,7 @@ function AboutPage() {
                             </ul></div>
                     </div>
                 </div>
-                <div className='md:-mt-56 md:-mb-56 lg:-mb-96 z-50 relative w-full hidden md:block'>
+                <div className='md:-mt-56 md:-mb-56 lg:-mb-96 z-10 relative w-full hidden md:block'>
                     <Image className='rounded-lg' src={"https://res.cloudinary.com/dgghqzaxo/image/upload/v1761246540/FOD%20Holidays/WhatsApp_Image_2025-10-21_at_00.53.00_vwsoe3.jpg"} height={500} width={600} alt="team" />
                 </div>
             </section>

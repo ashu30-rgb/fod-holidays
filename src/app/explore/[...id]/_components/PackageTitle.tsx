@@ -2,6 +2,7 @@ import { FaBus } from "react-icons/fa";
 import React from 'react'
 import { Camera, Hotel, Utensils } from "lucide-react";
 import { MainDataType } from "@fod/constants/types";
+import Link from "next/link";
 
 function PackageTitle({ data }: { data: MainDataType }) {
     return (
@@ -51,7 +52,7 @@ function PackageTitle({ data }: { data: MainDataType }) {
                 <h3 className="text-4xl font-bold text-fodOrange">&#8377; {data.prices[0].price}/- </h3>
                 <p className="text-fodOrange">Per {data.prices[0].isHoneyMoon ? "Couple" : "Person"}</p>
                 <p>{data.duration.day} Days & {data.duration.night} Nights</p>
-                <button className="btn-primary mt-4">Book Now</button>
+                <Link href={data.bookingUrl} target="_blank" className="btn-primary mt-4">Book Now</Link>
             </div>
         </div>
     )

@@ -47,9 +47,9 @@ const TripCard = ({ data }: { data: MainDataType }) => {
                             View
                         </button>
                     </Link>
-                    <button className='card-button whitespace-nowrap w-1/2'>
+                    <Link href={data.bookingUrl} target='_blank' className='card-button whitespace-nowrap w-1/2'>
                         Book Now
-                    </button>
+                    </Link>
                 </div>
             </div>
 

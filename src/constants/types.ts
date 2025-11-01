@@ -8,6 +8,7 @@ export interface MainDataType {
   places_covered: string[];
   inclusions: string[];
   exclusions: string[];
+  bookingUrl: string;
 }
 
 export interface PriceType {
