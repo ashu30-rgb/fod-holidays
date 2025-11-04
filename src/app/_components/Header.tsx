@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/">
-            <Image src={Logo} alt='FOD Logo' height={48} />
+            <Image src={Logo} alt='FOD Logo' height={56} />
           </Link>
 
           {/* Desktop Nav */}

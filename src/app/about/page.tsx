@@ -18,9 +18,9 @@ function AboutPage() {
             <div id="about" className="relative head-top min-h-screen bg-black text-white flex justify-center items-center">
                 <div className="top-overlay absolute top-0 left-0 h-full w-full"></div>
                 <div data-aos="fade-right" className='relative max-w-6xl mx-auto'>
-                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>About <span className='text-fodOrange'>FOD Holidays</span></div>
+                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>About <span className='text-fodOrange'>FOD</span> Holidays</div>
                     <div className='md:flex justify-end'>
-                        <div className='text-xl lg:text-3xl font-semibold text-center'>Welcome to FOD Holidays, where adventure meets comfort, and every trip becomes a memory. An unparalleled travel experience.</div>
+                        <div className='text-xl lg:text-3xl text-center italic'>Welcome to FOD Holidays, where adventure meets comfort, and every trip becomes a memory. An unparalleled travel experience.</div>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ function AboutPage() {
                     </div>
                 </div>
                 <div className='md:-mt-56 md:-mb-56 lg:-mb-96 z-10 relative w-full hidden md:block'>
-                    <Image className='rounded-lg' src={"https://res.cloudinary.com/dgghqzaxo/image/upload/v1761246540/FOD%20Holidays/WhatsApp_Image_2025-10-21_at_00.53.00_vwsoe3.jpg"} height={500} width={600} alt="team" />
+                    <Image className='rounded-lg border-4 border-white' src={"https://res.cloudinary.com/dgghqzaxo/image/upload/v1761246540/FOD%20Holidays/WhatsApp_Image_2025-10-21_at_00.53.00_vwsoe3.jpg"} height={500} width={600} alt="team" />
                 </div>
             </section>
             <section className='relative head-top about-middle-bg md:pt-32 lg:pt-64'>

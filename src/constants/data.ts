@@ -17,9 +17,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131159/FOD%20Holidays/Chopta%20Tungnath/aditya-siva-HlQi14Q_iO0-unsplash_ssk29x.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4999 },
-      { type: "triple", label: "Triple Sharing", price: 5499 },
-      { type: "double", label: "Double Sharing", price: 5999 },
+      { type: "quad", label: "Quad Sharing", price: 5999 },
+      { type: "triple", label: "Triple Sharing", price: 6499 },
+      { type: "double", label: "Double Sharing", price: 6999 },
     ],
     duration: {
       day: 5,
@@ -67,9 +67,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131820/FOD%20Holidays/Manali%20-%20Rohtang%20-%20Kasol/aditya-chache-F4ybv3lThTs-unsplash_xhdgfr.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4999 },
-      { type: "triple", label: "Triple Sharing", price: 5499 },
-      { type: "double", label: "Double Sharing", price: 5999 },
+      { type: "quad", label: "Quad Sharing", price: 5999 },
+      { type: "triple", label: "Triple Sharing", price: 6499 },
+      { type: "double", label: "Double Sharing", price: 6999 },
     ],
     duration: {
       day: 6,
@@ -112,9 +112,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132569/FOD%20Holidays/Udaipur%20-%20Mount%20Abu/rimjhim-agrawal-P6I33ztlBzs-unsplash_dkcp6s.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4999 },
-      { type: "triple", label: "Triple Sharing", price: 5499 },
-      { type: "double", label: "Double Sharing", price: 5999 },
+      { type: "quad", label: "Quad Sharing", price: 5999 },
+      { type: "triple", label: "Triple Sharing", price: 6499 },
+      { type: "double", label: "Double Sharing", price: 6999 },
     ],
     duration: {
       day: 5,
@@ -159,9 +159,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132483/FOD%20Holidays/Tirthan%20-%20Jibhi%20-%20Jalori/jalori-pass-17_bwwvhr.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4999 },
-      { type: "triple", label: "Triple Sharing", price: 5499 },
-      { type: "double", label: "Double Sharing", price: 5999 },
+      { type: "quad", label: "Quad Sharing", price: 5999 },
+      { type: "triple", label: "Triple Sharing", price: 6499 },
+      { type: "double", label: "Double Sharing", price: 6999 },
     ],
     duration: {
       day: 5,
@@ -205,9 +205,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131941/FOD%20Holidays/Mcleodganj%20-%20Triund/tejashvi-verma-najmIKbujfE-unsplash_xkbtie.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 5499 },
-      { type: "triple", label: "Triple Sharing", price: 5999 },
-      { type: "double", label: "Double Sharing", price: 6499 },
+      { type: "quad", label: "Quad Sharing", price: 6499 },
+      { type: "triple", label: "Triple Sharing", price: 6999 },
+      { type: "double", label: "Double Sharing", price: 7499 },
     ],
     duration: {
       day: 5,
@@ -252,9 +252,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131636/FOD%20Holidays/Kasol%20-%20Kheerganga/amlan-saha-kundu-t6mBids3T4k-unsplash_e8ac0r.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4999 },
-      { type: "triple", label: "Triple Sharing", price: 5499 },
-      { type: "double", label: "Double Sharing", price: 5999 },
+      { type: "quad", label: "Quad Sharing", price: 5999 },
+      { type: "triple", label: "Triple Sharing", price: 6499 },
+      { type: "double", label: "Double Sharing", price: 6999 },
     ],
     duration: {
       day: 5,
@@ -299,9 +299,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131722/FOD%20Holidays/Kedarnath%20-%20Badrinath/abhay-paditkar-atrWLkNne0U-unsplash_vscrdi.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 13999 },
-      { type: "triple", label: "Triple Sharing", price: 14899 },
-      { type: "double", label: "Double Sharing", price: 15899 },
+      { type: "quad", label: "Quad Sharing", price: 14999 },
+      { type: "triple", label: "Triple Sharing", price: 15899 },
+      { type: "double", label: "Double Sharing", price: 16899 },
     ],
     duration: {
       day: 5,
@@ -394,9 +394,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761132017/FOD%20Holidays/Rishikesh%20Adventure/akash-choudhary-CTdDooABASA-unsplash_d3lisq.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 4499 },
-      { type: "triple", label: "Triple Sharing", price: 4999 },
-      { type: "double", label: "Double Sharing", price: 5499 },
+      { type: "quad", label: "Quad Sharing", price: 5499 },
+      { type: "triple", label: "Triple Sharing", price: 5999 },
+      { type: "double", label: "Double Sharing", price: 6499 },
     ],
     duration: {
       day: 3,
@@ -441,9 +441,9 @@ export const MAIN_DATA: MainDataType[] = [
       "https://res.cloudinary.com/dgghqzaxo/image/upload/v1761131722/FOD%20Holidays/Kedarnath%20-%20Badrinath/abhay-paditkar-atrWLkNne0U-unsplash_vscrdi.jpg",
     ],
     prices: [
-      { type: "quad", label: "Quad Sharing", price: 9999 },
-      { type: "triple", label: "Triple Sharing", price: 10499 },
-      { type: "double", label: "Double Sharing", price: 11999 },
+      { type: "quad", label: "Quad Sharing", price: 10999 },
+      { type: "triple", label: "Triple Sharing", price: 11499 },
+      { type: "double", label: "Double Sharing", price: 12999 },
     ],
     duration: {
       day: 6,

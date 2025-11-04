@@ -65,7 +65,7 @@ outline: none
 }
 
 .rx-logo-bg {
-  background-image: url(../assets/logo.png);
+  background-image: url(../assets/logo-bg.png);
   background-position: bottom left;
   background-repeat: no-repeat;
   opacity: 0.05;

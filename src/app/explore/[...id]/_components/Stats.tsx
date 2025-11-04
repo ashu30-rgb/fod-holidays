@@ -11,7 +11,7 @@ function Stats() {
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-20 '>
             <div className='flex flex-col gap-1'>
                 <Image src={love} alt='Hear Image' />
-                <h3 className='font-semibold text-lg mt-4'>10 Thousands +</h3>
+                <h3 className='font-semibold text-lg mt-4'>5 Thousands +</h3>
                 <p>Happy customers from all over India.</p>
             </div>
             <div className='flex flex-col gap-1'>
