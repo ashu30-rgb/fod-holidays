@@ -3,6 +3,7 @@ import { Geist, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
+import { Analytics } from "@vercel/analytics/next"
 
 const roboto = Roboto_Condensed({
   weight: '400',
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body
         className={`${roboto.className} ${geistSans.variable} antialiased`}
       >
+        <Analytics/>
         <Header/>
         <div className="pt-16">
         {children}

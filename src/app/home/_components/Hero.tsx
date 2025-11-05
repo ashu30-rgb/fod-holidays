@@ -15,7 +15,7 @@ function Hero() {
                 <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 bg-black/50 h-full flex justify-center">
                     <div className='w-full h-full lg:w-3/5 flex flex-col gap-2 md:gap-4 justify-center items-center text-white'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="300" height="120" viewBox="0 0 500 200" fill="none">
-                            <g clip-path="url(#clip0_4271_3695)">
+                            <g clipPath="url(#clip0_4271_3695)">
                                 <path d="M219.8 26.801V41.585H190.36V54.545H212.32V69.329H190.36V94.001H175V26.801H219.8Z" fill="#FC5B0B" />
                                 <path d="M219.8 26.801V41.585H190.36V54.545H212.32V69.329H190.36V94.001H175V26.801H219.8Z" fill="url(#paint0_linear_4271_3695)" />
                                 <path d="M280.787 85.265C273.971 91.985 265.715 95.345 256.019 95.345C246.323 95.345 238.067 91.985 231.251 85.265C224.435 78.545 221.075 70.289 221.075 60.401C221.075 50.513 224.435 42.257 231.251 35.537C238.067 28.817 246.323 25.457 256.019 25.457C265.715 25.457 273.971 28.817 280.787 35.537C287.603 42.257 290.963 50.513 290.963 60.401C290.963 70.289 287.603 78.545 280.787 85.265ZM242.003 74.801C245.747 78.545 250.451 80.369 256.019 80.369C261.587 80.369 266.195 78.545 269.939 74.801C273.683 71.057 275.603 66.257 275.603 60.401C275.603 54.545 273.683 49.745 269.939 46.001C266.195 42.257 261.587 40.433 256.019 40.433C250.451 40.433 245.747 42.257 242.003 46.001C238.259 49.745 236.435 54.545 236.435 60.401C236.435 66.257 238.259 71.057 242.003 74.801Z" fill="#FC5B0B" />
@@ -41,20 +41,20 @@ function Hero() {
                             </g>
                             <defs>
                                 <linearGradient id="paint0_linear_4271_3695" x1="264.24" y1="20" x2="302.047" y2="123.38" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#FD9A16" />
-                                    <stop offset="1" stop-color="#FC5B0B" />
+                                    <stop stopColor="#FD9A16" />
+                                    <stop offset="1" stopColor="#FC5B0B" />
                                 </linearGradient>
                                 <linearGradient id="paint1_linear_4271_3695" x1="264.24" y1="20" x2="302.047" y2="123.38" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#FD9A16" />
-                                    <stop offset="1" stop-color="#FC5B0B" />
+                                    <stop stopColor="#FD9A16" />
+                                    <stop offset="1" stopColor="#FC5B0B" />
                                 </linearGradient>
                                 <linearGradient id="paint2_linear_4271_3695" x1="264.24" y1="20" x2="302.047" y2="123.38" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#FD9A16" />
-                                    <stop offset="1" stop-color="#FC5B0B" />
+                                    <stop stopColor="#FD9A16" />
+                                    <stop offset="1" stopColor="#FC5B0B" />
                                 </linearGradient>
                                 <linearGradient id="paint3_linear_4271_3695" x1="57" y1="-30" x2="223.024" y2="133.601" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#FD9A16" />
-                                    <stop offset="1" stop-color="#FC5B0B" />
+                                    <stop stopColor="#FD9A16" />
+                                    <stop offset="1" stopColor="#FC5B0B" />
                                 </linearGradient>
                                 <clipPath id="clip0_4271_3695">
                                     <rect width="500" height="200" fill="white" />
