@@ -17,10 +17,10 @@ function page() {
                     </div>
                     <div className="w-full px-8">
                         <h4 className=" text-xl  md:text-[32px] text-center w-full text-black font-normal">
-                            We're Here To Help
+                            We&apos;re Here To Help
                         </h4>
                         <h3 className=" text-lg  md:text-[28px] text-center w-full text-black font-medium">
-                            FOD Holiday's 5-star Customer Service
+                            FOD Holiday&apos;s 5-star Customer Service
                         </h3>
                         <hr className=" border-dash m-auto " />
                     </div>

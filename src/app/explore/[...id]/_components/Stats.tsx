@@ -4,7 +4,6 @@ import heart from "@fod/assets/images/heart.png"
 import love from "@fod/assets/images/love.png"
 import star from "@fod/assets/images/star.png"
 import support from "@fod/assets/images/support.png"
-import { MainDataType } from '@fod/constants/types'
 
 function Stats() {
     return (

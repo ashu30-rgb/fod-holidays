@@ -2,7 +2,7 @@
 import { MAIN_DATA } from '@fod/constants/data'
 import Image from 'next/image'
 import Link from 'next/link';
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 function Trending() {
@@ -23,7 +23,7 @@ function Trending() {
             <div className='max-w-7xl mx-auto mb-16'>
                 <div className='text-center'>
                     <h2 className='text-3xl font-bold text-fodBlue title-underline-orange after:bg-white'>Trending</h2>
-                    <p className='text-2xl mt-4 font-light text-fodBlue/60'>Here's What We Are Offering</p>
+                    <p className='text-2xl mt-4 font-light text-fodBlue/60'>Here&apos;s What We Are Offering</p>
                 </div>
 
                 <div className='flex gap-4 items-start justify-between overflow-auto mt-8'>

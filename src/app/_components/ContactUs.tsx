@@ -8,7 +8,7 @@ function ContactUs() {
             <div className='max-w-7xl mx-auto mb-16'>
                 <div className='text-center'>
                     <h2 className='text-3xl font-bold text-fodBlue title-underline-orange'>Contact Our Branch</h2>
-                    <p className='pt-8 text-xl font-medium text-fodOrange/80'>You're welcome to reach out to us by phone, email, or by visiting us in person.
+                    <p className='pt-8 text-xl font-medium text-fodOrange/80'>You&apos;re welcome to reach out to us by phone, email, or by visiting us in person.
                     </p>
                 </div>
                 <div className='mt-12 flex flex-col lg:flex-row gap-10 '>

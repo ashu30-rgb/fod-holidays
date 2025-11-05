@@ -1,4 +1,3 @@
-import { MainDataType } from '@fod/constants/types'
 import React from 'react'
 
 function Policy() {

@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect } from 'react'
-import CountUp from 'react-countup'
 import aos from 'aos';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
@@ -33,7 +32,7 @@ function AboutPage() {
                 <div className='w-full flex md:justify-end  relative max-w-6xl mx-auto'>
                     <div className='md:w-2/4'>
                         <div data-aos="fade-up" className='text-3xl font-bold text-fodBlue title-underline-orange mb-6'>Why FOD Holidays?</div>
-                        <div data-aos="fade-up" className='text-sm mb-4 md:mb-6 tracking-wider md:tracking-widest md:leading-relaxed'>With a passion for exploration and excellence, we're redefining the way people experience travel. Our mission is simple: to craft unforgettable journeys filled with comfort, adventure, and lasting memories.
+                        <div data-aos="fade-up" className='text-sm mb-4 md:mb-6 tracking-wider md:tracking-widest md:leading-relaxed'>With a passion for exploration and excellence, we&apos;re redefining the way people experience travel. Our mission is simple: to craft unforgettable journeys filled with comfort, adventure, and lasting memories.
                             <ul className='text-sm uppercase tracking-wide mt-5'>
                                 <li data-aos="fade-left" className='flex gap-2 items-center mb-3'>
                                     <Check className='text-fodOrange' />

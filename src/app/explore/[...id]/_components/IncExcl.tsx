@@ -5,7 +5,7 @@ import React from 'react'
 function IncExcl({data}:{data:MainDataType}) {
     return (
         <div className='border rounded-xl p-4 '>
-            <h2 className=" text-2xl font-semibold border-b pb-4">What's inside the package?</h2>
+            <h2 className=" text-2xl font-semibold border-b pb-4">What&apos;s inside the package?</h2>
             <div className='md:flex'>
                 <div className='p-2 border-b md:border-b-0 md:border-r mt-2 md:w-1/2'>
                     <h3 className=" text-xl font-semibold">Inclusions</h3>

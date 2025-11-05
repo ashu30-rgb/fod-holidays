@@ -5,8 +5,6 @@ import VideoSection from './Video'
 import { ReactTyped } from 'react-typed'
 import SearchBar from '@fod/app/_components/SearchBar'
 import Link from 'next/link'
-import Image from 'next/image'
-import Logo from "@fod/assets/logo.png"
 
 
 function Hero() {

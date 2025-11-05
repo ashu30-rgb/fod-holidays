@@ -1,5 +1,4 @@
 import StatsCount from '@fod/app/_components/StatsCount';
-import { Plane } from 'lucide-react'
 import Image from 'next/image';
 import React from 'react';
 import STATS1 from "@fod/assets/icons/stats1.svg"
