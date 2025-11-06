@@ -20,11 +20,11 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/">
-            <Image src={Logo} alt='FOD Logo' height={56} />
+            <Image src={Logo} alt='FOD Logo' height={50} />
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex space-x-8 font-medium ">
+          <nav className="hidden md:flex space-x-8 font-medium text-xl ">
             <Link href="/" className={`hover:text-fodOrange transition ${currentRoute==="/" && "font-bold text-fodOrange"}`}>Home</Link>
             <Link href="/explore" className={`hover:text-fodOrange transition ${currentRoute==="/explore" && "!font-bold text-fodOrange"}`}>Explore</Link>
             <Link href="/about" className={`hover:text-fodOrange transition ${currentRoute==="/about" && "font-bold text-fodOrange"}`}>About</Link>

@@ -18,13 +18,13 @@ const Footer = () => {
             <div className="p-2 border border-gray-400 rounded-full">
               <FaEnvelope className="text-fodOrange" />
             </div>
-            <span className="text-gray-200 text-sm">fodholidays@gamil.com</span>
+            <span className="text-gray-200 text-sm">fodholidays@gmail.com</span>
           </div>
           <div className="flex items-center gap-3">
             <div className="p-2 border border-gray-400 rounded-full">
               <FaPhone className="text-fodOrange" />
             </div>
-            <span className="text-gray-200 text-sm">+1-97353-61805</span>
+            <span className="text-gray-200 text-sm">+91 9779434405</span>
           </div>
         </div>
 

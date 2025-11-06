@@ -3,6 +3,9 @@ import { MainDataType } from "@fod/constants/types";
 export const HOMEPAGE_VIDEO_URL =
   "https://res.cloudinary.com/dgghqzaxo/video/upload/v1761249884/FOD%20Holidays/fod_hrms5i.mp4";
 
+const DEFAULT_WTSP_URL =
+  "https://api.whatsapp.com/send/?phone=919779434405&text&type=phone_number&app_absent=0";
+
 export const MAIN_DATA: MainDataType[] = [
   {
     id: 1,
@@ -46,7 +49,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 2,
@@ -96,7 +99,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 3,
@@ -141,7 +144,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 4,
@@ -188,7 +191,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 5,
@@ -234,7 +237,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 6,
@@ -281,7 +284,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 7,
@@ -328,7 +331,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 8,
@@ -379,7 +382,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 9,
@@ -423,7 +426,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 10,
@@ -470,7 +473,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 11,
@@ -518,7 +521,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Any personal expense",
     ],
     bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+      DEFAULT_WTSP_URL,
   },
   {
     id: 12,
@@ -570,8 +573,7 @@ export const MAIN_DATA: MainDataType[] = [
       "Adventurous sports like rafting and paragliding",
       "Any personal expense",
     ],
-    bookingUrl:
-      "https://api.whatsapp.com/send/?phone=919501909482&text&type=phone_number&app_absent=0",
+    bookingUrl: DEFAULT_WTSP_URL,
   },
 ];
 

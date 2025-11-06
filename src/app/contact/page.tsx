@@ -30,8 +30,8 @@ function page() {
                         Whether you’re planning your first trip or looking for expert guidance, our travel team is here to help. With years of experience crafting unforgettable journeys, you can count on us every step of the way.
                     </p>
                     <ul className="px-8 w-11/12 md:w-1/2 text-center m-auto  text-sm mt-8 text-fodOrange">
-                        <li>CONTACT: +91 97794 64405</li>
-                        <li className="mb-2">CONTACT: +91 95019 09482</li>
+                        <li className='mb-2'>CONTACT: +91 97794 64405</li>
+                        {/* <li className="mb-2">CONTACT: +91 95019 09482</li> */}
                         <Link className="!text-fodOrange" href="/contact">CONTACT US</Link>
                     </ul>
                 </div>

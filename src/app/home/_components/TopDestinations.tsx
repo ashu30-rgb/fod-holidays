@@ -27,7 +27,7 @@ function TopDestinations() {
                     ))}
                 </div>
             </div>
-            <p className='lg:text-[200px] font-extrabold text-fodBlue/10 -mb-20'>Destination</p>
+            <p className='hidden lg:block lg:text-[200px] font-extrabold text-fodBlue/10 -mb-20'>Destination</p>
         </div>
     )
 }
