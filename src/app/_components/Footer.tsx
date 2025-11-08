@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter, FaLinkedinIn, FaArrowUp } from "react-icons/fa6";
+import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter, FaArrowUp } from "react-icons/fa6";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -11,8 +12,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur. Mauris mauris risus ipsum
-            cursus risus quam dictum sed orci. Eu ut feugiat nullam.
+           We&apos;d love to hear from you! Reach out with your questions, feedback, or collaboration ideas anytime.
           </p>
           <div className="flex items-center gap-3 mb-3">
             <div className="p-2 border border-gray-400 rounded-full">
@@ -44,9 +44,9 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Social Connect</h3>
           <div className="flex items-center gap-5 text-2xl">
-            <a href="#" className="hover:text-fodOrange"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/fod.holidays/" target="_blank" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
             <a href="#" className="hover:text-fodOrange"><FaXTwitter /></a>
-            <a href="#" className="hover:text-fodOrange"><FaLinkedinIn /></a>
+            <a href="#" className="hover:text-fodOrange"><FaFacebookF /></a>
           </div>
         </div>
       </div>

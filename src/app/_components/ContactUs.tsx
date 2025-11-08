@@ -1,4 +1,6 @@
+import { DEFAULT_WTSP_URL } from '@fod/constants/data';
 import { Mail, MapPin, Phone } from 'lucide-react'
+import Link from 'next/link';
 import React from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -18,7 +20,7 @@ function ContactUs() {
                         <p className='text-lg flex items-center gap-4'><Phone />+91 9779434405</p>
                         <p className='text-lg flex items-center gap-4'><Mail />fodholidays@gmail.com</p>
                         <div className='mt-4 w-full'>
-                        <button className='flex gap-2 items-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</button>
+                        <Link href={DEFAULT_WTSP_URL} target='_blank' className='flex gap-2 items-center justify-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</Link>
                         </div>
                     </div>
                     <div className='w-full'>
