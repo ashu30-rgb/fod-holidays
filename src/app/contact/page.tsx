@@ -2,11 +2,21 @@ import Link from 'next/link'
 import React from 'react'
 import customerSupport from "@fod/assets/icons/customer-support.svg";
 import Image from 'next/image';
+import ContactUs from '../_components/ContactUs';
 
 
 function page() {
     return (
         <div className=" w-full h-full">
+            <div id="contact" className="relative head-top  bg-black text-white flex justify-center items-center !bg-bottom">
+                <div className="top-overlay absolute top-0 left-0 h-full w-full"></div>
+                <div data-aos="fade-right" className='relative max-w-6xl mx-auto py-24 lg:py-36'>
+                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>Contact <span className='text-fodOrange'>FOD</span> Holidays</div>
+                    <div className='md:flex justify-end'>
+                        <div className='text-xl lg:text-3xl text-center italic'>Get in touch with FOD Holidays — your next unforgettable journey starts with a conversation.</div>
+                    </div>
+                </div>
+            </div>
             <div className=" w-full py-16 ">
                 <div className='w-full text-center'>
                     <h1 className='text-xl md:text-[32px] font-bold text-center text-fodBlue title-underline-orange'>Any Questions No Worries?</h1>
@@ -71,7 +81,7 @@ function page() {
                     <div className=" flex flex-col justify-center items-start gap-2 ">
                         <h5 className=" text-lg font-semibold text-cet">CORPORATE</h5>
                         <p className=" w-56 text-sm">
-                           FOD TOWER, Simar Enclave, Maheru, Punjab 144411
+                            FOD TOWER, Simar Enclave, Maheru, Punjab 144411
                         </p>
                         <Link href="/contact" className="!text-[#0C6980]">Email Contact Form</Link>
                         <a href="https://wa.me/919650376785" target="blank" className="!text-[#0C6980]">Whatsapp Us</a>
@@ -103,6 +113,8 @@ function page() {
                     </div>
                 </div>
             </div>
+
+            <ContactUs/>
         </div>
     )
 }
