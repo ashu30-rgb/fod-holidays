@@ -51,12 +51,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Scroll to Top Button */}
-      <button
-        className="absolute right-6 md:right-16 bottom-10 bg-fodOrange hover:bg-orange-600 text-white p-4 rounded-full shadow-lg transition-all duration-300"
-      >
-        <FaArrowUp />
-      </button>
 
       {/* Footer Bottom */}
       <div className="border-t border-gray-600 mt-10 pt-5 text-center text-gray-400 text-sm">
