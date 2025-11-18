@@ -15,16 +15,16 @@ function ContactUs() {
                 </div>
                 <div className='mt-12 flex flex-col lg:flex-row gap-10 '>
                     <div className='lg:w-1/3 shadow border p-8 flex flex-col gap-8 rounded-lg'>
-                        <h2 className='text-4xl font-semibold text-fodBlue'>FOD Holidays Office</h2>
-                        <p className='text-lg flex items-center gap-4'> <MapPin size={40} />FOD TOWER, Simar Enclave, Maheru, Punjab 144411</p>
+                        <h2 className='text-3xl font-semibold text-fodBlue'>FOD Holidays Pvt Ltd</h2>
+                        <p className='text-lg flex items-center gap-4'> <MapPin size={40} />Plot no  1501 first floor sector 2 Bahadurgarh Jhajjar Haryana 124507</p>
                         <p className='text-lg flex items-center gap-4'><Phone />+91 9779434405</p>
-                        <p className='text-lg flex items-center gap-4'><Mail />fodholidays@gmail.com</p>
+                        <p className='text-lg flex items-center gap-4'><Mail />info@fodholidays.com</p>
                         <div className='mt-4 w-full'>
                         <Link href={DEFAULT_WTSP_URL} target='_blank' className='flex gap-2 items-center justify-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</Link>
                         </div>
                     </div>
                     <div className='w-full'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.826322147021!2d75.6965402!3d31.253230900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5fa49863296f%3A0x84046922113f158d!2sFOD%20Living%20Office!5e0!3m2!1sen!2sin!4v1760985610246!5m2!1sen!2sin" className='rounded-lg w-full' width="700" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14000.130707675944!2d76.88914300486756!3d28.688669104895766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0bf0b05f6d0d%3A0xd130ab14c68e46c3!2sSector-02%2C%20Bahadurgarh%2C%20Haryana%20124507!5e0!3m2!1sen!2sin!4v1763490180469!5m2!1sen!2sin" className='rounded-lg w-full' width="700" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

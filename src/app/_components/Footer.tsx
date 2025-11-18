@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter, FaArrowUp } from "react-icons/fa6";
+import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="p-2 border border-gray-400 rounded-full">
               <FaEnvelope className="text-fodOrange" />
             </div>
-            <span className="text-gray-200 text-sm">fodholidays@gmail.com</span>
+            <span className="text-gray-200 text-sm">info@fodholidays.com</span>
           </div>
           <div className="flex items-center gap-3">
             <div className="p-2 border border-gray-400 rounded-full">
