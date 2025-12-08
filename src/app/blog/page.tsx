@@ -25,8 +25,20 @@ export default async function Page() {
     const blogs = await res.json();
     console.log(blogs.data[0].timeToRead)
 
+    interface Blog {
+        id: string;
+        title: string;
+        excerpt: string;
+        href: string;
+        author: string;
+        date: string;
+        category: { name: string };
+        timeToRead: number;
+        thumbnail: string;
+    }
+
     return  <div className="flex flex-col gap-4 p-4">
-      {blogs?.data.map((blog:any) => (
+      {blogs?.data.map((blog: Blog) => (
         <Link href={"/blog/"+blog.id} key={blog.id}>
          <BlogCard 
          title={blog.title} 
