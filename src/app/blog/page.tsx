@@ -2,6 +2,7 @@
 
 import BlogCard from "@fod/components/ui/blog-card";
 import Link from "next/link";
+import { Key } from "react";
 
 export default async function Page() {
     const apiKey = process.env.CMS_KEY;
