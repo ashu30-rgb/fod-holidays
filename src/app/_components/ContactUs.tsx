@@ -17,7 +17,7 @@ function ContactUs() {
                     <div className='lg:w-1/3 shadow border p-8 flex flex-col gap-8 rounded-lg'>
                         <h2 className='text-3xl font-semibold text-fodBlue'>FOD Holidays Pvt Ltd</h2>
                         <p className='text-lg flex items-center gap-4'> <MapPin size={40} />Plot no  1501 first floor sector 2 Bahadurgarh Jhajjar Haryana 124507</p>
-                        <p className='text-lg flex items-center gap-4'><Phone />+91 9779434405</p>
+                        <p className='text-lg flex items-center gap-4'><Phone />+91 9779464405</p>
                         <p className='text-lg flex items-center gap-4'><Mail />info@fodholidays.com</p>
                         <div className='mt-4 w-full'>
                         <Link href={DEFAULT_WTSP_URL} target='_blank' className='flex gap-2 items-center justify-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</Link>

@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Roboto_Condensed } from "next/font/google";
+import { Geist, Poppins, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import { Analytics } from "@vercel/analytics/next"
 
-const roboto = Roboto_Condensed({
+// const roboto = Roboto_Condensed({
+//   weight: '400',
+//   subsets: ['latin'],
+// })
+
+ const poppins = Poppins({
   weight: '400',
   subsets: ['latin'],
 })
@@ -30,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} ${geistSans.variable} antialiased`}
+        className={`${poppins.className} ${geistSans.variable} antialiased`}
       >
         <Analytics/>
         <Header/>

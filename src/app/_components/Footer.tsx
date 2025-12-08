@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { FaEnvelope, FaPhone, FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
+import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
             <div className="p-2 border border-gray-400 rounded-full">
               <FaPhone className="text-fodOrange" />
             </div>
-            <span className="text-gray-200 text-sm">+91 9779434405</span>
+            <span className="text-gray-200 text-sm">+91 9779464405</span>
           </div>
         </div>
 
@@ -43,10 +44,11 @@ const Footer = () => {
         {/* Social Connect */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Social Connect</h3>
-          <div className="flex items-center gap-5 text-2xl">
+          <div className="flex items-end gap-5 text-2xl">
             <a href="https://www.instagram.com/fod.holidays/" target="_blank" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
             <a href="#" className="hover:text-fodOrange"><FaXTwitter /></a>
             <a href="#" className="hover:text-fodOrange"><FaFacebookF /></a>
+            <a href="https://www.youtube.com/@FODHolidays" className="hover:text-fodOrange"><BsYoutube /></a>
           </div>
         </div>
       </div>
