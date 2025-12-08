@@ -2,6 +2,7 @@
 
 import BlogCard from "@fod/components/ui/blog-card";
 import Link from "next/link";
+import { Key } from "react";
 
 export default async function Page() {
     const apiKey = process.env.CMS_KEY;
@@ -26,7 +27,7 @@ export default async function Page() {
     console.log(blogs.data[0].timeToRead)
 
     return  <div className="flex flex-col gap-4 p-4">
-      {blogs?.data.map((blog:any) => (
+      {blogs?.data.map((blog: { id: Key | null | undefined; title: string; excerpt: string | null | undefined; href: string | null | undefined; author: string | null | undefined; date: string | Date | null | undefined; category: { name: string | null | undefined; }; timeToRead: string | number | null | undefined; thumbnail: string | null | undefined; }) => (
         <Link href={"/blog/"+blog.id} key={blog.id}>
          <BlogCard 
          title={blog.title} 

@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 import customerSupport from "@fod/assets/icons/customer-support.svg";
 import Image from 'next/image';
