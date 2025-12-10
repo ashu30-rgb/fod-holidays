@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // const roboto = Roboto_Condensed({
 //   weight: '400',
@@ -38,6 +39,7 @@ export default function RootLayout({
         className={`${poppins.className} ${geistSans.variable} antialiased`}
       >
         <Analytics/>
+        <SpeedInsights/>
         <Header/>
         <div className="pt-16">
         {children}
