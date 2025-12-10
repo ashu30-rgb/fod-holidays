@@ -10,9 +10,9 @@ function page() {
             <div id="contact" className="relative head-top  bg-black text-white flex justify-center items-center !bg-bottom">
                 <div className="top-overlay absolute top-0 left-0 h-full w-full"></div>
                 <div data-aos="fade-right" className='relative max-w-6xl mx-auto py-24 lg:py-36'>
-                    <div className='text-3xl md:text-[4rem] xl:text-[7rem] font-semibold blend mb-6 xl:mb-12 text-center '>Contact <span className='text-fodOrange'>FOD</span> Holidays</div>
+                    <div className='text-3xl md:text-[4rem] xl:text-[6rem] font-semibold blend mb-6 xl:mb-12 text-center '>Contact <span className='text-fodOrange'>FOD</span> Holidays</div>
                     <div className='md:flex justify-end'>
-                        <div className='text-xl lg:text-3xl text-center italic'>Get in touch with FOD Holidays — your next unforgettable journey starts with a conversation.</div>
+                        <div className='text-xl lg:text-3xl text-center italic'>Get in touch with FOD Holidays, your next unforgettable journey starts with a conversation.</div>
                     </div>
                 </div>
             </div>

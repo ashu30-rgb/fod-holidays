@@ -35,7 +35,7 @@ function PricingOptions({ data }: { data: MainDataType }) {
                             <p className='text-lg font-semibold'>{item.label}</p>
                         </div>
                         <div>
-                            <h3 className="text-4xl font-bold text-fodOrange">&#8377; {item.price}/- </h3>
+                            <h3 className="text-4xl font-bold text-fodOrange">&#8377; {item.price.toLocaleString()}/- </h3>
                             <p className="text-fodOrange/75">Per {item.isHoneyMoon ? "Couple" : "Person"}</p>
                         </div>
                     </div>

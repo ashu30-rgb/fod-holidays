@@ -16,7 +16,7 @@ const TripCard = ({ data }: { data: MainDataType }) => {
                     height={283}
                 />
                 <div className="bg-fodOrange/90 p-1.5 px-12 inline-block absolute right-0 bottom-0 rounded-br-3xl rounded-tl-3xl font-semibold text-base text-white">
-                    &#8377; {data.prices[0].price}/-
+                    &#8377; {data.prices[0].price.toLocaleString()}/-
                 </div>
             </div>
             <div className="p-6">
