@@ -28,7 +28,7 @@ function WhyUs() {
                         <Image src={STATS3.src} alt='plane icon' width={90} height={91} />
                         <h3 className='text-xl font-bold'>Trusted and Transparent
                         </h3>
-                        <p className='text-center text-xs'>Clear pricing, honest communication, and reliable service. You always know what you're getting, and you always get what you were promised.
+                        <p className='text-center text-xs'>Clear pricing, honest communication, and reliable service. You always know what you&apos;re getting, and you always get what you were promised.
                         </p>
                     </div>
                     <div className='flex flex-col items-center justify-center gap-2 p-4 py-10 hover:bg-fodOrange/10 border-2 border-transparent hover:border-fodOrange/60 rounded-xl cursor-pointer transition-all duration-500 '>

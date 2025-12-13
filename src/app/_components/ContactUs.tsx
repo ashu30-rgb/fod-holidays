@@ -24,7 +24,7 @@ function ContactUs() {
                         </div>
                     </div>
                     <div className='w-full'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14000.130707675944!2d76.88914300486756!3d28.688669104895766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0bf0b05f6d0d%3A0xd130ab14c68e46c3!2sSector-02%2C%20Bahadurgarh%2C%20Haryana%20124507!5e0!3m2!1sen!2sin!4v1763490180469!5m2!1sen!2sin" className='rounded-lg w-full' width="700" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title='Google Map iFrame' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14000.130707675944!2d76.88914300486756!3d28.688669104895766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0bf0b05f6d0d%3A0xd130ab14c68e46c3!2sSector-02%2C%20Bahadurgarh%2C%20Haryana%20124507!5e0!3m2!1sen!2sin!4v1763490180469!5m2!1sen!2sin" className='rounded-lg w-full' width="700" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
