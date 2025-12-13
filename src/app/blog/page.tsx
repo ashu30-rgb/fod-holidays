@@ -23,7 +23,6 @@ export default async function Page() {
     }
 
     const blogs = await res.json();
-    console.log(blogs.data[0].timeToRead)
 
     interface Blog {
         id: string;

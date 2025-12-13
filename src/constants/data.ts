@@ -1,7 +1,7 @@
 import { MainDataType } from "@fod/constants/types";
 
 export const HOMEPAGE_VIDEO_URL =
-  "https://res.cloudinary.com/dgghqzaxo/video/upload/v1761249884/FOD%20Holidays/fod_hrms5i.mp4";
+  "https://res.cloudinary.com/dgghqzaxo/video/upload/q_auto,f_auto/v1761249884/FOD%20Holidays/fod_hrms5i.mp4";
 
 export const DEFAULT_WTSP_URL =
   "https://api.whatsapp.com/send/?phone=919779464405&text&type=phone_number&app_absent=0";

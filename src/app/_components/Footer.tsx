@@ -45,10 +45,10 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Social Connect</h3>
           <div className="flex items-end gap-5 text-2xl">
-            <a href="https://www.instagram.com/fod.holidays/" target="_blank" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
-            <a href="#" className="hover:text-fodOrange"><FaXTwitter /></a>
-            <a href="#" className="hover:text-fodOrange"><FaFacebookF /></a>
-            <a href="https://www.youtube.com/@FODHolidays" className="hover:text-fodOrange"><BsYoutube /></a>
+            <a href="https://www.instagram.com/fod.holidays/" aria-label="Instagram" target="_blank" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
+            <a href="#" className="hover:text-fodOrange" aria-label="Twitter"><FaXTwitter /></a>
+            <a href="#" className="hover:text-fodOrange" aria-label="Facebook"><FaFacebookF /></a>
+            <a href="https://www.youtube.com/@FODHolidays" aria-label="Youtube" className="hover:text-fodOrange"><BsYoutube /></a>
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ function Trending() {
                 <div className='gap-8 grid md:grid-cols-2 lg:grid-cols-4 mt-10 justify-between'>
                     {selectedTrip.images.slice(0, 4).map((item) => (
                         <div  key={item} className='relative w-full h-72 rounded-xl group'>
-                            <Image src={item} alt='Thailand' className='w-full h-full rounded-xl object-cover' height={400} width={400} />
+                            <Image src={item} alt='Trending destinations image' className='w-full h-full rounded-xl object-cover' height={400} width={400} />
                             <div className='absolute flex items-center justify-center h-full w-full top-0 left-0 bg-fodBlue/40 rounded-xl transition-opacity duration-500 opacity-0 group-hover:opacity-100'>
                                 <Link href={`/explore/${selectedTrip?.id}`} className='btn-primary !bg-white !text-fodOrange font-semibold !normal-case'>View Detail</Link>
                             </div>

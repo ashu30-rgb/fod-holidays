@@ -3,7 +3,7 @@ import HomePage from "./home/page"
 
 export default function Home() {
   return (
-    <div>
+    <div role="main" id="main">
       <HomePage />
       <SpeedInsights/>
     </div>

@@ -11,7 +11,7 @@ const TripCard = ({ data }: { data: MainDataType }) => {
                 <Image
                     className="rounded-3xl h-72 object-cover "
                     src={data.images[0]||""}
-                    alt="medical clinics, medical centre, clinic near, medicine care"
+                    alt={data.name+" image"}
                     width={384}
                     height={283}
                 />
