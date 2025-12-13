@@ -20,7 +20,7 @@ function ContactUs() {
                         <p className='text-lg flex items-center gap-4'><Phone />+91 9779464405</p>
                         <p className='text-lg flex items-center gap-4'><Mail />info@fodholidays.com</p>
                         <div className='mt-4 w-full'>
-                        <Link href={DEFAULT_WTSP_URL} target='_blank' className='flex gap-2 items-center justify-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</Link>
+                        <Link href={DEFAULT_WTSP_URL} target='_blank' rel="noopener noreferrer" className='flex gap-2 items-center justify-center p-2 px-4 bg-green-500 text-white font-semibold rounded-lg mx-auto'> <FaWhatsapp size={20} />Whatsapp Us</Link>
                         </div>
                     </div>
                     <div className='w-full'>

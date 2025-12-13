@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-           We&apos;d love to hear from you! Reach out with your questions, feedback, or collaboration ideas anytime.
+            We&apos;d love to hear from you! Reach out with your questions, feedback, or collaboration ideas anytime.
           </p>
           <div className="flex items-center gap-3 mb-3">
             <div className="p-2 border border-gray-400 rounded-full">
@@ -45,10 +45,10 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Social Connect</h3>
           <div className="flex items-end gap-5 text-2xl">
-            <a href="https://www.instagram.com/fod.holidays/" aria-label="Instagram" target="_blank" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
-            <a href="#" className="hover:text-fodOrange" aria-label="Twitter"><FaXTwitter /></a>
-            <a href="#" className="hover:text-fodOrange" aria-label="Facebook"><FaFacebookF /></a>
-            <a href="https://www.youtube.com/@FODHolidays" aria-label="Youtube" className="hover:text-fodOrange"><BsYoutube /></a>
+            <a href="https://www.instagram.com/fod.holidays/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-fodOrange"><AiFillInstagram size={28} /></a>
+            <a href="https://x.com/fodholidays" target="_blank" rel="noopener noreferrer" className="hover:text-fodOrange" aria-label="Twitter"><FaXTwitter /></a>
+            <a href="https://www.facebook.com/people/FOD-Holidays/61559265012727/" target="_blank" rel="noopener noreferrer" className="hover:text-fodOrange" aria-label="Facebook"><FaFacebookF /></a>
+            <a href="https://www.youtube.com/@FODHolidays" aria-label="Youtube" target="_blank" rel="noopener noreferrer" className="hover:text-fodOrange"><BsYoutube /></a>
           </div>
         </div>
       </div>

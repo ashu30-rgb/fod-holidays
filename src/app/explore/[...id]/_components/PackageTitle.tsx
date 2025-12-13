@@ -52,7 +52,7 @@ function PackageTitle({ data }: { data: MainDataType }) {
                 <h3 className="text-4xl font-bold text-fodOrange">&#8377; {data.prices[0].price.toLocaleString()}/- </h3>
                 <p className="text-fodOrange">Per {data.prices[0].isHoneyMoon ? "Couple" : "Person"}</p>
                 <p>{data.duration.day} Days & {data.duration.night} Nights</p>
-                <Link href={data.bookingUrl} target="_blank" className="btn-primary mt-4">Book Now</Link>
+                <Link href={data.bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary mt-4">Book Now</Link>
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 function Trending() {
 
     const [randomFive, setRandomFive] = useState<typeof MAIN_DATA>([]);
-    const [selectedTrip, setSelectedTrip] = useState(randomFive[0]||MAIN_DATA[0]);
+    const [selectedTrip, setSelectedTrip] = useState(randomFive[0] || MAIN_DATA[0]);
 
     useEffect(() => {
         const shuffled = MAIN_DATA
@@ -28,13 +28,13 @@ function Trending() {
 
                 <div className='flex gap-4 items-start justify-between overflow-auto mt-8'>
                     {randomFive.map((trip, index) => (
-                        <div key={index} className={`text-lg font-semibold p-2 px-4 rounded-xl whitespace-nowrap transition-all duration-500 ${trip.id === selectedTrip.id ? "bg-white text-fodOrange cursor-default" : "text-white/70 cursor-pointer"}`} onClick={() => setSelectedTrip(trip)}>{trip.name}</div>
+                        <button key={index} className={`text-lg font-semibold p-2 px-4 rounded-xl whitespace-nowrap transition-all duration-500 ${trip.id === selectedTrip.id ? "bg-white text-fodOrange cursor-default" : "text-white/70 cursor-pointer"}`} onClick={() => setSelectedTrip(trip)}>{trip.name}</button>
                     ))}
                 </div>
 
                 <div className='gap-8 grid md:grid-cols-2 lg:grid-cols-4 mt-10 justify-between'>
                     {selectedTrip.images.slice(0, 4).map((item) => (
-                        <div  key={item} className='relative w-full h-72 rounded-xl group'>
+                        <div key={item} className='relative w-full h-72 rounded-xl group'>
                             <Image src={item} alt='Trending destinations image' className='w-full h-full rounded-xl object-cover' height={400} width={400} />
                             <div className='absolute flex items-center justify-center h-full w-full top-0 left-0 bg-fodBlue/40 rounded-xl transition-opacity duration-500 opacity-0 group-hover:opacity-100'>
                                 <Link href={`/explore/${selectedTrip?.id}`} className='btn-primary !bg-white !text-fodOrange font-semibold !normal-case'>View Detail</Link>
